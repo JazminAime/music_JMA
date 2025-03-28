@@ -38,8 +38,7 @@ const AppLayout = () => {
         flexDirection="column"
         position="relative"
         zIndex="2"
-        overflow="auto" // Permitir scroll sin afectar el fondo
-      >
+        overflow="auto">
         <Routing />
       </GridItem>
 
