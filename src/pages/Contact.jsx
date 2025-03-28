@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <Box
       w={{ base: "90%", sm: "400px" }}
-      height="560px"
+      height="600px"
       p="6"
       borderRadius="20px"
       boxShadow="xl"

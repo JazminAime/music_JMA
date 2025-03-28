@@ -21,9 +21,7 @@ const theme = extendTheme({
         backgroundAttachment: "fixed",
         "@media (max-width: 768px)": {
           backgroundImage: fondoMobile,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
+          backgroundSize: "fit-contain",
         },
       },
     },
