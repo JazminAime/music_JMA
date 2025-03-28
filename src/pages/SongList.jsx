@@ -9,7 +9,7 @@ import mistify from "../../public/mistify.mp3";
 import letIt from "../../public/letitbe.mp3";
 import picnic from "../../public/picnicenel4b.mp3";
 import amor from "../../public/amorDePaso.mp3";
-import life from "../../public/itsmylife.mp3";
+import life from "../../public/Itsmylife.mp3";
 import have from "../../public/haveeverseenintherain.mp3";
 import sol from "../../public/todalanochehastaquesalgaelsol.mp3";
 import tonight from "../../public/intheairtonigtht.mp3";
