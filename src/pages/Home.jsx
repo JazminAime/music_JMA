@@ -1,7 +1,7 @@
 import { Box, Button, Flex, Icon, Text } from "@chakra-ui/react";
 import { BsYoutube } from "react-icons/bs";
 import { FaSpotify, FaTiktok } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -30,7 +30,7 @@ const Home = () => {
         </Text>
         <Flex marginTop="30px" gap="20px">
           <Button
-            as={Link}
+            as={RouterLink}
             to="/canciones"
             borderRadius="0"
             size="xl"
@@ -48,7 +48,7 @@ const Home = () => {
             Escuchar ahora
           </Button>
           <Button
-            as={Link}
+            as={RouterLink}
             to="/biografía"
             borderRadius="0"
             size="xl"
@@ -67,9 +67,10 @@ const Home = () => {
           </Button>
         </Flex>
         <Flex marginTop="30px" gap="20px">
-          <Link
+          <a
             href="https://open.spotify.com/intl-es/artist/3nxqlSi8CAfYIZg2PqwyV0?si=UgMiuGTiRdaa2YNLzEXiXw"
-            isExternal>
+            target="_blank"
+            rel="noopener noreferrer">
             <Icon
               as={FaSpotify}
               boxSize="35px"
@@ -80,11 +81,12 @@ const Home = () => {
                 transition: "all 0.2s ease",
               }}
             />
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="https://www.youtube.com/@jmacamiloaldao5023/featured"
-            isExternal>
+            target="_blank"
+            rel="noopener noreferrer">
             <Icon
               as={BsYoutube}
               boxSize="35px"
@@ -95,9 +97,12 @@ const Home = () => {
                 transition: "all 0.2s ease",
               }}
             />
-          </Link>
+          </a>
 
-          <Link href="https://www.tiktok.com/@jesus.maria.alisc" isExternal>
+          <a
+            href="https://www.tiktok.com/@jesus.maria.alisc"
+            target="_blank"
+            rel="noopener noreferrer">
             <Icon
               as={FaTiktok}
               boxSize="35px"
@@ -108,7 +113,7 @@ const Home = () => {
                 transition: "all 0.2s ease",
               }}
             />
-          </Link>
+          </a>
         </Flex>
       </Flex>
     </Box>
