@@ -35,7 +35,7 @@ const VideoList = () => {
         Videos
       </Heading>
       <Flex justify="center">
-        <SimpleGrid columns={1} spacing="8" px="4" maxW="1200px" mb="50px">
+        <SimpleGrid columns={1} spacing="8" px="4" mb="50px">
           {videos.map((video, index) => (
             <VideoCard key={index} video={video} />
           ))}

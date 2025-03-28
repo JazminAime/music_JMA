@@ -15,7 +15,7 @@ const Me = () => {
       <Box
         width={{ base: "90%", md: "70%" }}
         mx="auto"
-        p="25px"
+        p={{ base: "10px", md: "15px" }}
         borderRadius="20px"
         backdropFilter="blur(10px)"
         bg="rgba(255, 255, 255, 0.1)"

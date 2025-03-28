@@ -8,7 +8,7 @@ const VideoCard = ({ video }) => {
       alignItems="center"
       justifyContent="center"
       borderRadius="12px"
-      p="4"
+      p={{ base: "2", md: "4" }}
       w={{ base: "100%", md: "650px" }}
       h={{ base: "100%", md: "450px" }}
       textAlign="center"
@@ -21,7 +21,12 @@ const VideoCard = ({ video }) => {
         transform: "translateY(-5px)",
         boxShadow: "0px 0px 20px rgba(255, 255, 255, 0.5)",
       }}>
-      <Text color="custom.50" fontWeight="bold" mb="3" fontSize="xl" mt="5px">
+      <Text
+        color="custom.50"
+        fontWeight="bold"
+        mb="3"
+        fontSize={{ base: "18px", md: "xl" }}
+        mt="5px">
         {video.title}
       </Text>
       <iframe

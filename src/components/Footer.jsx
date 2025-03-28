@@ -55,7 +55,7 @@ const Footer = () => {
             isExternal
             fontWeight="bold"
             _hover={{ color: "custom.100" }}>
-            Jazmín
+            Jazmín Aimé
           </Link>
         </Text>
       </Flex>

@@ -8,13 +8,13 @@ const Home = () => {
     <Box position="relative" minH="100vh">
       <Flex
         position="relative"
-        marginTop="100px"
+        marginTop="120px"
         align="center"
         justify="center"
         direction="column"
         textAlign="center">
         <Text
-          fontSize={{ base: "3xl", md: "5xl" }}
+          fontSize={{ base: "27px", md: "5xl" }}
           fontWeight="bold"
           fontFamily="montserrat"
           marginTop="50px"
@@ -22,7 +22,7 @@ const Home = () => {
           JESÚS MARÍA ALISCIONI
         </Text>
         <Text
-          fontSize={{ base: "1xl", md: "3xl" }}
+          fontSize={{ base: "22px", md: "3xl" }}
           fontFamily="montserrat"
           marginTop="20px"
           color="custom.50">
