@@ -40,7 +40,7 @@ const Header = () => {
           <HStack
             marginRight="60px"
             spacing={6}
-            display={{ base: "none", md: "flex" }}
+            display={{ base: "none", lg: "flex" }}
             fontSize="20px">
             {menuItems.map((item, index) => (
               <Link
@@ -70,7 +70,7 @@ const Header = () => {
 
           {/* Botón de menú en móvil */}
           <IconButton
-            display={{ base: "flex", md: "none" }}
+            display={{ base: "flex", lg: "none" }}
             icon={<HamburgerIcon />}
             onClick={onOpen}
             fontSize="45px"

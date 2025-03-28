@@ -33,7 +33,7 @@ const AppLayout = () => {
       {/* Main */}
       <GridItem
         area="main"
-        minH="100vh"
+        minH="70vh"
         display="flex"
         flexDirection="column"
         position="relative"

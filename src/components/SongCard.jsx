@@ -10,7 +10,7 @@ const SongCard = ({ song }) => {
       justifyContent="center"
       borderRadius="12px"
       p="4"
-      w="330px"
+      w={{ base: "330px", md: "400px", lg: "450px" }}
       h="450px"
       textAlign="center"
       bg="rgba(255, 255, 255, 0.1)"

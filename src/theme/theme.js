@@ -19,6 +19,13 @@ const theme = extendTheme({
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
+        "@media (max-width: 1024px)": {
+          backgroundImage: fondoMobile,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+        },
         "@media (max-width: 768px)": {
           backgroundImage: fondoMobile,
           backgroundSize: "fit-contain",
