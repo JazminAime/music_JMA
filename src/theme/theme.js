@@ -18,7 +18,6 @@ const theme = extendTheme({
         backgroundImage: fondo,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
         "@media (max-width: 1024px)": {
           backgroundImage: fondoMobile,
           backgroundSize: "cover",
@@ -26,8 +25,7 @@ const theme = extendTheme({
         "@media (max-width: 768px)": {
           backgroundImage: fondoMobile,
           backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
+          backgroundAttachment: "scroll",
         },
       },
     },
